@@ -7,7 +7,7 @@ const Fibonacci = React.createClass({
     length: React.PropTypes.number.isRequired
   },
 
-  render: function () {
+  render () {
     const sol = fib.getFibArray(this.props.length);
     return (
       <div>
